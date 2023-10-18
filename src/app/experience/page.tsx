@@ -40,7 +40,7 @@ const ResumePage = () => {
     },
   ];
   return (
-    <section className="md:basis-2/3 md:p-8 max-h-full overflow-hidden">
+    <section className="md:basis-2/3 md:p-8 max-h-full lg:pt-20">
       {work.map((job, id) => (
         <Card
           key={id}
