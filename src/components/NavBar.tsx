@@ -18,14 +18,14 @@ const NavBar = () => {
   return (
     <header>
       <nav>
-        <ul className="flex flex-col">
+        <ul className="flex md:flex-col justify-evenly">
           {links.map((link) => (
             <Link
               key={link.id}
               href={link.url}
-              className={`text-slate-50 text-3xl ${
+              className={`text-slate-50  text-xl md:text-3xl ${
                 link.url === segment ? "text-slate-500" : "text-slate-50"
-              } hover:text-slate-300 pt-2`}
+              } hover:text-slate-300 pt-2 pb-2`}
             >
               {link.label}
             </Link>
