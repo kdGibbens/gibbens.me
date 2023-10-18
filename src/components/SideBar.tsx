@@ -1,4 +1,3 @@
-import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 const SideBar = () => {
@@ -14,8 +13,6 @@ const SideBar = () => {
         </p>
         <NavBar />
       </div>
-
-      
     </aside>
   );
 };
