@@ -2,7 +2,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import SideBar from "@/components/SideBar";
-import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +22,6 @@ export default function RootLayout({
           <div className="flex justify-center flex-wrap">
             <SideBar />
             {children}
-            <Footer />
           </div>
         </main>
       </body>
