@@ -34,7 +34,7 @@ const ResumePage = () => {
     {
       company: "NWEA",
       description:
-        "Develop, refactor and customize Front-end UI for Educational testing on boarding and Admin dashboard for related application. Utilize a variety of company API’s as well as third party API’s such as SalesForce, Using Vue.js, Vue-router, axios.js, laravel blade templates, ES6, Less, CSS, VueBootstrap, moment.js and HTML5 to develop and improve on current application.",
+        "Develop, refactor and customize Front-end UI for Educational testing on boarding and Admin dashboard for related application.",
       title: "Front-end Developer",
       skills: ["Vue", "Vue-Bootstrap", "Laravel", "SalesForce API"],
     },
