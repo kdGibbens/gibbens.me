@@ -1,22 +1,38 @@
+"use client";
 import Link from "next/link";
+import { useSelectedLayoutSegment } from "next/navigation";
+
+type LinkType = {
+  url: string;
+  label: string;
+  id: number;
+};
 
 const NavBar = () => {
+  const segment = useSelectedLayoutSegment();
+  const links: LinkType[] = [
+    { url: "/", label: "About", id: 0 },
+    { url: "/experience", label: "Experience", id: 1 },
+  ];
+
   return (
     <header>
-          <nav>
-            <ul>
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/about">About</Link>
-              </li>
-              <li>
-                <Link href="/resume">Resume</Link>
-              </li>
-            </ul>
-          </nav>
-        </header>
+      <nav>
+        <ul className="flex flex-col">
+          {links.map((link) => (
+            <Link
+              key={link.id}
+              href={link.url}
+              className={`text-slate-50 text-4xl ${
+                link.url === segment ? "text-slate-500" : "text-slate-50"
+              } hover:text-slate-300`}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </ul>
+      </nav>
+    </header>
   );
 };
 
