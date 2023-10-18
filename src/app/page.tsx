@@ -24,7 +24,7 @@ const Home = () => {
       <p className="px-8 py-2 text-slate-50">
         When I am not working/coding and learning I enjoy the simple things in
         life like KU basketball. I am loving cat dad to the Archduke Franz
-        Furdinand and avid bedroom guitarist, bassist, and more recently
+        Furdinand and an avid bedroom guitarist, bassist, and more recently
         synthesizers. I currently live in the Portland Metro and enjoy the life
         out on the west coast.
       </p>
