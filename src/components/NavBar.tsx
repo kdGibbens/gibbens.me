@@ -23,9 +23,9 @@ const NavBar = () => {
             <Link
               key={link.id}
               href={link.url}
-              className={`text-slate-50 text-4xl ${
+              className={`text-slate-50 text-3xl ${
                 link.url === segment ? "text-slate-500" : "text-slate-50"
-              } hover:text-slate-300`}
+              } hover:text-slate-300 pt-2`}
             >
               {link.label}
             </Link>
