@@ -13,7 +13,6 @@ const NavBar = () => {
   const links: LinkType[] = [
     { url: "/", label: "About", id: 0 },
     { url: "/experience", label: "Experience", id: 1 },
-    { url: "/", label: "Projects", id: 2 },
   ];
 
   return (

@@ -15,7 +15,7 @@ const SideBar = () => {
         <NavBar />
       </div>
 
-      <Footer />
+      
     </aside>
   );
 };
