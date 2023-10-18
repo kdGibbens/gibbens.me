@@ -17,10 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-slate-600 ${inter.className}`}>
-        <main className="flex min-h-screen mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0 lg:flex lg:justify-between lg:gap-4">
-          <SideBar />
-          {children}
+      <body className={`bg-slate-800 ${inter.className} `}>
+        <main className="min-h-screen mx-auto max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0 lg:flex lg:justify-between lg:gap-4">
+          <div className="flex justify-center">
+            <SideBar />
+            {children}
+          </div>
         </main>
       </body>
     </html>

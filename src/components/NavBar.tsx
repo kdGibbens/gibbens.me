@@ -13,6 +13,7 @@ const NavBar = () => {
   const links: LinkType[] = [
     { url: "/", label: "About", id: 0 },
     { url: "/experience", label: "Experience", id: 1 },
+    { url: "/", label: "Projects", id: 2 },
   ];
 
   return (
@@ -23,9 +24,9 @@ const NavBar = () => {
             <Link
               key={link.id}
               href={link.url}
-              className={`text-slate-50 text-4xl ${
+              className={`text-slate-50 text-3xl ${
                 link.url === segment ? "text-slate-500" : "text-slate-50"
-              } hover:text-slate-300`}
+              } hover:text-slate-300 pt-2`}
             >
               {link.label}
             </Link>
