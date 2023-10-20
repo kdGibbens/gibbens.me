@@ -36,6 +36,13 @@ const Home = () => {
         >
           gibbenskd@gmail.com
         </a>
+        <br />
+        <a
+          href="https://github.com/kdGibbens"
+          className="text-slate-400 hover:text-slate-200"
+        >
+          GitHub
+        </a>
       </p>
     </section>
   );
