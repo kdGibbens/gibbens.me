@@ -1,7 +1,7 @@
 import Image from 'next/image';
 const Home = () => {
   return (
-    <section className="md:basis-2/3 lg:pt-20">
+    <div className="md:basis-2/3 lg:pt-1">
       <p className="md:px-8 py-2 text-slate-50">
         A decade ago I decided to change directions in my life and I began
         learning to code. Flash forward to today and I have worked for a variety
@@ -32,7 +32,7 @@ const Home = () => {
           GitHub
         </a>
       </p>
-    </section>
+    </div>
   );
 };
 
