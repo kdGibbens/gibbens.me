@@ -2,9 +2,9 @@ type CardType = {
   title: string;
   subtitle?: string;
   description: string;
-  url?: string;
+  skills: string[];
 };
-const Card = ({ title, subtitle, description, url }: CardType) => {
+const Card = ({ title, subtitle, description, skills }: CardType) => {
   return (
     <div className="block max-w-full rounded-lg bg-slate-50 text-left shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-2">
       <div className="p-6">
@@ -17,6 +17,12 @@ const Card = ({ title, subtitle, description, url }: CardType) => {
         <p className="mb-4 text-base  leading-normal text-neutral-600 dark:text-neutral-200">
           {description}
         </p>
+        <div>
+          Skills:
+          {skills.map((skill) => {
+            return ` ${skill} `;
+          })}
+        </div>
       </div>
     </div>
   );
