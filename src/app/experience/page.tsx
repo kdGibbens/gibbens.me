@@ -53,6 +53,7 @@ const ResumePage = () => {
       ))}
       <p className="pt-4">
         <a
+          target="_blank"
           href="/assets/Kelly_Gibbens_Resume.pdf"
           className="text-slate-50 hover:text-slate-50-400"
         >
