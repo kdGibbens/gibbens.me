@@ -10,27 +10,20 @@ const Home = () => {
         to detail and my drive to succeed in all my projects.
       </p>
       <p className="md:px-8 py-2 text-slate-50">
-        When I am not working/coding and learning I enjoy the simple things in
+        When I am not working/coding and learning, I enjoy the simple things in
         life like KU basketball. I am loving cat dad to the Archduke Franz
         Furdinand and an avid bedroom guitarist, bassist, and more recently
         synthesizers. I currently live in the Portland Metro and enjoy the life
         out on the west coast.
       </p>
       <p className="md:px-8 py-2 text-slate-50">
-        Contact me at{' '}
-        <a
-          href="mailto:gibbenskd@gmail.com"
-          className="text-slate-400 hover:text-slate-200"
-        >
-          gibbenskd@gmail.com
-        </a>
-        <br />
         <a
           href="https://github.com/kdGibbens"
           className="text-slate-400 hover:text-slate-200"
         >
-          GitHub
+          Check out my GitHub
         </a>
+        .
       </p>
     </div>
   );

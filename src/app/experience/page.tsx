@@ -41,7 +41,7 @@ const ResumePage = () => {
     },
   ];
   return (
-    <div>
+    <div className="md:basis-2/3 lg:pt-1">
       {work.map((job, id) => (
         <Card
           key={id}
