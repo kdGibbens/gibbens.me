@@ -2,7 +2,7 @@ import Image from 'next/image';
 const Home = () => {
   return (
     <div className="md:basis-2/3 lg:pt-1">
-      <p className="md:px-8 py-2 text-slate-50">
+      <p className="md:px-8 text-slate-50">
         A decade ago I decided to change directions in my life and I began
         learning to code. Flash forward to today and I have worked for a variety
         of companies big and small including Nike, Toms of Maine, Hills Petfood,
