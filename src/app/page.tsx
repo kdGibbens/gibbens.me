@@ -18,6 +18,7 @@ const Home = () => {
       </p>
       <p className="md:px-8 py-2 text-slate-50">
         <a
+          target="_blank"
           href="https://github.com/kdGibbens"
           className="text-slate-400 hover:text-slate-200"
         >
