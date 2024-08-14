@@ -22,7 +22,7 @@ export default function RootLayout({
       </head>
       <body className={`bg-slate-800 ${inter.className} `}>
         <main className="min-h-screen mx-auto max-w-screen-xl px-6 py-6 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0 lg:flex lg:justify-between lg:gap-4">
-          <div className="flex justify-center flex-wrap">
+          <div className="flex justify-center flex-wrap w-full">
             <SideBar />
             {children}
           </div>
