@@ -6,7 +6,7 @@ const Home = () => {
         A decade ago I decided to change directions in my life and I began
         learning to code. Flash forward to today and I have worked for a variety
         of companies big and small including Nike, Toms of Maine, Hills Petfood,
-        NWEA, Cloudbolt Software and Drivewy.com. I take pride in my attention
+        NWEA, Cloudbolt Software and Driveway.com. I take pride in my attention
         to detail and my drive to succeed in all my projects.
       </p>
       <p className="md:px-8 py-2 text-slate-50">
